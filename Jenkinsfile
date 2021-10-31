@@ -8,6 +8,13 @@ pipeline{
 	}
 
     }
+    stage('QA')
+    { 
+	steps{
+            echo "welcome to jenkins pipeline"
+	}
+
+    }	  
   }
 
 }
