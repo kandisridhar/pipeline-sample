@@ -11,7 +11,7 @@ pipeline{
     stage('QA')
     { 
 	steps{
-            echo "welcome to jenkins pipeline"
+            echo "welcome to jenkins pipeline for QA"
 	}
 
     }	  
