@@ -4,7 +4,7 @@ pipeline{
     stage('development')
     { 
 	steps{
-            echo "welcome to jenkins pipeline"
+            echo "welcome to jenkins pipeline for development"
 	}
 
     }
@@ -13,7 +13,6 @@ pipeline{
 	steps{
             echo "welcome to jenkins pipeline for QA"
 	}
-
     }	  
   }
 
